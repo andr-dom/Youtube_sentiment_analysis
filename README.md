@@ -1,12 +1,12 @@
-# 🎥 YouTube Sentiment Analysis
+# YouTube Sentiment Analysis
 
 A Natural Language Processing (NLP) project that analyzes the sentiment of YouTube comments using Python and VADER (Valence Aware Dictionary and sEntiment Reasoner).
 
-> 🚧 **Work in Progress** — This project is currently under development.
+> **Work in Progress** — This project is currently under development.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Project Overview](#project-overview)
 - [Tech Stack](#tech-stack)
@@ -15,13 +15,13 @@ A Natural Language Processing (NLP) project that analyzes the sentiment of YouTu
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project aims to perform sentiment analysis on YouTube comments to classify them as **positive**, **negative**, or **neutral**. The goal is to understand audience reactions to videos and uncover patterns in viewer engagement.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -33,7 +33,7 @@ This project aims to perform sentiment analysis on YouTube comments to classify 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 YouTube_Sentiment_Analysis/
@@ -42,35 +42,3 @@ YouTube_Sentiment_Analysis/
 └── README.md
 ```
 
----
-
-## ▶️ How to Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/andr-dom/YouTube_Sentiment_Analysis.git
-cd YouTube_Sentiment_Analysis
-```
-
-### 2. Install dependencies
-```bash
-pip install pandas numpy matplotlib seaborn nltk
-```
-
-### 3. Download NLTK data
-```python
-import nltk
-nltk.download('vader_lexicon')
-```
-
-### 4. Run the notebook
-```bash
-jupyter notebook youtube_sentimental_analysis.ipynb
-```
-
----
-
-## 👤 Author
-
-**andr-dom**  
-[GitHub Profile](https://github.com/andr-dom)
